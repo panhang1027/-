@@ -28,5 +28,5 @@ if __name__ == '__main__':
     print(lines)
     output_data = open('Pre_yaoqiu.txt','w+',encoding='utf-8')
     output_data.write(''.join('%s' %a for a in lines))
-
+    print('11')
     
